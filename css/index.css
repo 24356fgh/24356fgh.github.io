@@ -1,0 +1,75 @@
+/* Hero Section */
+#hero {
+    background-image: url('imagenes/space-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #00d9f4;
+    color: black;
+    font-size: 1.2em;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #007b99;
+}
+
+/* Carrusel */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.carousel-item img {
+    width: 630px;
+    height: 100%;
+}
+
+/* Acordeón */
+.acordeon-item {
+    background-color: #222;
+    color: #fff;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.acordeon-header {
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.acordeon-body {
+    display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.acordeon-header:hover {
+    background-color: #00d9f4;
+}
+
+/* Footer */
+footer {
+    background-color: #121212;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}

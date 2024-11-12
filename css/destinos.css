@@ -1,0 +1,52 @@
+/* Estilos de la Sección de Destinos */
+.destinos {
+    padding: 50px;
+    background-color: #121212;
+    color: white;
+}
+
+.destinos h2 {
+    font-size: 2.5em;
+    color: #00d9f4;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.destinos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.destino {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.destino:hover {
+    transform: scale(1.05);
+}
+
+.destino img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destino h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #00d9f4;
+}
+
+footer {
+    background-color: #121212;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
